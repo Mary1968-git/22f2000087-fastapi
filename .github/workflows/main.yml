@@ -27,6 +27,5 @@ jobs:
       - name: Run check
         run: echo "Workflow successful"
 
-      - name: Notify success
-        if: success()
-        run: echo "Tests passed for 22f2000087@ds.study.iitm.ac.in"
+      - name: 22f2000087@ds.study.iitm.ac.in
+        run: echo "Tests passed"
